@@ -38,17 +38,40 @@ li {
   gap: 20px;
 }
 
-button {
-  padding: 10px 20px;
-  background-color: #f3803d;
-  color: #fff;
-  border-radius: 5px;
-  border: 2px solid #fdfdfd;
-  cursor: pointer;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
+.submit-btn {
+  width: 3vw;
+  margin-left: 17vw;
 }
 
-button:hover {
-  background-color: #ee610f;
+.container {
+  width: 100vw;
+  margin: auto;
+}
+
+#bookList {
+  border: 1px solid black;
+  width: 95vw;
+  margin-right: 3vw;
+  padding: 0;
+}
+
+.single-book {
+  display: flex;
+  align-items: center;
+  height: 2vh;
+  justify-content: space-between;
+}
+
+.remove-btn {
+  padding: 0.5vh 1vw;
+  margin-bottom: 1vh;
+  margin-top: 10px;
+}
+
+.line {
+  width: 10vw;
+  height: 0.2vh;
+  background-color: gray;
+  margin-bottom: 4vh;
+  margin-top: 3vh;
 }
