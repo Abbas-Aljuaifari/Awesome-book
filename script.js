@@ -1,9 +1,9 @@
 class BookCollection {
   constructor() {
-    this.bookListElement = document.getElementById("bookList");
-    this.addBookForm = document.getElementById("addBookForm");
-    this.titleInput = document.getElementById("title");
-    this.authorInput = document.getElementById("author");
+    this.bookListElement = document.getElementById('bookList');
+    this.addBookForm = document.getElementById('addBookForm');
+    this.titleInput = document.getElementById('title');
+    this.authorInput = document.getElementById('author');
     this.bookCollection = [];
     this.loadFromLocalStorage();
     this.addEventListeners();
@@ -11,12 +11,17 @@ class BookCollection {
   }
 
   loadFromLocalStorage() {
-    const savedCollection = localStorage.getItem("bookCollection");
-    this.bookCollection = savedCollection ? JSON.parse(savedCollection) : [];
+    const savedCollection = localStorage.getItem('bookCollection');
+    this.bookCollection = savedCollection
+      ? JSON.parse(savedCollection)
+      : [];
   }
 
   saveToLocalStorage() {
-    localStorage.setItem("bookCollection", JSON.stringify(this.bookCollection));
+    localStorage.setItem(
+      'bookCollection',
+      JSON.stringify(this.bookCollection),
+    );
   }
 
   removeBook(index) {
@@ -26,16 +31,16 @@ class BookCollection {
   }
 
   renderBookList() {
-    this.bookListElement.innerHTML = "";
+    this.bookListElement.innerHTML = '';
     this.bookCollection.forEach((book, index) => {
-      const li = document.createElement("li");
-      li.className = "single-book";
+      const li = document.createElement('li');
+      li.className = 'single-book';
       li.textContent = `${book.title} - ${book.author}`;
 
-      const removeButton = document.createElement("button");
-      removeButton.textContent = "Remove";
-      removeButton.className = "remove-btn";
-      removeButton.addEventListener("click", () => {
+      const removeButton = document.createElement('button');
+      removeButton.textContent = 'Remove';
+      removeButton.className = 'remove-btn';
+      removeButton.addEventListener('click', () => {
         this.removeBook(index);
       });
 
@@ -52,14 +57,15 @@ class BookCollection {
   }
 
   addEventListeners() {
-    this.addBookForm.addEventListener("submit", (event) => {
+    this.addBookForm.addEventListener('submit', (event) => {
       event.preventDefault();
       const title = this.titleInput.value;
       const author = this.authorInput.value;
       this.addBook(title, author);
-      this.titleInput.value = "";
-      this.authorInput.value = "";
+      this.titleInput.value = '';
+      this.authorInput.value = '';
     });
   }
 }
-BookCollection();
+const finalBookList = new BookCollection();
+finalBookList();
