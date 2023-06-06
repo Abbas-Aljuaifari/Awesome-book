@@ -12,28 +12,28 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+-   [📖 About the Project](#about-project)
+    -   [🛠 Built With](#built-with)
+        -   [Key Features](#key-features)
+    -   [🚀 Live Demo](#live-demo)
+-   [💻 Getting Started](#getting-started)
+    -   [Setup](#setup)
+    -   [Prerequisites](#prerequisites)
+    -   [Install](#install)
+    -   [Usage](#usage)
+    -   [Run tests](#run-tests)
+-   [👥 Authors](#authors)
+-   [🔭 Future Features](#future-features)
+-   [🤝 Contributing](#contributing)
+-   [⭐️ Show your support](#support)
+-   [🙏 Acknowledgements](#acknowledgements)
+-   [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Awesome Books] <a name="about-project"></a>
 
-**[Awesome Books]** In this project, I'm learning to build a basic website that allows users to add/remove books from a list. also used JavaScript objects and arrays. that dynamically modify the DOM and add basic events.
+**[Awesome Books]** In this project, I'm learning to build a basic website that allows users to add/remove books from a list. also used object oriented programming(class). that dynamically modify the DOM and add basic events.
 to get a professional interface that presents the work on my projects,
 pleas know that it is still on going and it needs more work but everything is coming together soon!
 
@@ -52,12 +52,12 @@ pleas know that it is still on going and it needs more work but everything is co
 
 ### Key Features <a name="key-features"></a>
 
-- **[HTML Form]**
-- **[Semantic tags]**
-- **[CSS Flexbox]**
-- **[CSS Grid]**
-- **[Responiveness]**
-- **[ Javascript ]**
+-   **[HTML Form]**
+-   **[Semantic tags]**
+-   **[CSS Flexbox]**
+-   **[CSS Grid]**
+-   **[Responiveness]**
+-   **[ Javascript ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +65,7 @@ pleas know that it is still on going and it needs more work but everything is co
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://abbas-aljuaifari.github.io/Awesome-book/)
+-   [Live Demo Link](https://abbas-aljuaifari.github.io/Awesome-book/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,9 +79,9 @@ To get a local copy up and running, follow these steps downbelow!
 
 In order to run this project you need:
 
-- Web browser
-- Git-syn
-- Code editor
+-   Web browser
+-   Git-syn
+-   Code editor
 
 ### Setup
 
@@ -103,25 +103,25 @@ npm install
 
 To run the project:
 
-- Clone this repo to your local machine.
+-   Clone this repo to your local machine.
 
 ### Run tests
 
 To run tests, run the following command:
 
-- Track HTML linter errors run:
+-   Track HTML linter errors run:
 
 ```
 npx hint .
 ```
 
-- Track CSS linter errors run:
+-   Track CSS linter errors run:
 
 ```
 npx stylelint "**/*.{css,scss}"
 ```
 
-- Track JavaScript linter errors run:
+-   Track JavaScript linter errors run:
 
 ```
 npx eslint .
@@ -135,8 +135,8 @@ npx eslint .
 
 👤 **Abbas-Aljuaifari**
 
-- GitHub: [@Abbas-Aljuaifari](https://github.com/Abbas-Aljuaifari)
-- LinkedIn: [Abbas(fares)Aljuaifari](https://www.linkedin.com/in/abbas-aljuaifari-17a018261/)
+-   GitHub: [@Abbas-Aljuaifari](https://github.com/Abbas-Aljuaifari)
+-   LinkedIn: [Abbas(fares)Aljuaifari](https://www.linkedin.com/in/abbas-aljuaifari-17a018261/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,16 +146,16 @@ npx eslint .
 
 :bust_in_silhouette: **Kingsley chidozie igbor**
 
-- GitHub: [@Developer-Kingz](https://github.com/Developer-Kingz)
-- linkedIn: [Kingsley(Chidozie)Igbor](https://www.linkedin.com/in/kingsley-igbor-14b04720b/)
+-   GitHub: [@Developer-Kingz](https://github.com/Developer-Kingz)
+-   linkedIn: [Kingsley(Chidozie)Igbor](https://www.linkedin.com/in/kingsley-igbor-14b04720b/)
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[ Add more soled animations and transition ]**
-- **[ PC Version ]**
-- **[ Update my showcase section ]**
+-   **[ Add more soled animations and transition ]**
+-   **[ PC Version ]**
+-   **[ Update my showcase section ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,7 +175,7 @@ Feel free to check the [issues page](../../issues/).
 
 If you like this project follow me on github!
 
-- GitHub: [@Abbas-Aljuaifari](https://github.com/Abbas-Aljuaifari)
+-   GitHub: [@Abbas-Aljuaifari](https://github.com/Abbas-Aljuaifari)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
